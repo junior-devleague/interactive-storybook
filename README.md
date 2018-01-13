@@ -15,6 +15,28 @@ To complete this project, students should have the following:
 * Basic understanding of CSS Keyframes.
 * Basic understanding of Flexbox.
 
+## Concepts
+
+HTML | Description
+-----|------------
+HTML | **H** yper **T** ext **M** arkup **L** anguage used to create the structure of web pages.
+element | An element is an individual part, or a building block, of a web page.
+attribute | A modifier of an element.
+div | A container element.
+p | A paragraph element.
+
+CSS | Description
+----|------------
+CSS | **C** ascading **S** tyle **S** heets that describes how HTML elements are displayed.
+flexbox | A layout mode to improve how items are aligned or ordered on a page even within items of unknown size.
+position | A property that specifies the type of positioning method used (static, relative, absolute, or fixed). Play around with the different types here: https://www.w3schools.com/cssref/playit.asp?filename=playcss_position&preval=absolute. 
+
+Note: Flexbox comes in very handy! It is helpful to remember the following common CSS Flexbox properties.
+* ```display: flex;``` Use this to activate Flexbox! If you do not have this property, other flexbox properties will not work.
+* ```justify-content: center | space-around | space-between;``` Control horizontal spacing.
+* ```align-items: center | space-around | space-between;``` Control vertical spacing.
+* ```flex-direction: column | row;``` Control the direction of items.
+
 ## Your Challenge
 
 ### Part I
@@ -75,6 +97,8 @@ We will continue to create similar patterns.
   * ```div``` with a ```class``` of "innerarea"
     * ```img``` with the ```src``` to the "panel8.png" file.
 
+---
+
 * ```p``` with ```class``` of "speech" and ```id``` of **"dialogue1"**. You don't have to put anything in there yet.
 
 * ```p``` with ```class``` of "speech" and ```id``` of **"dialogue2"**. You don't have to put anything in there yet.
@@ -89,4 +113,12 @@ We will continue to create similar patterns.
 
 * ```p``` with ```class``` of "speech" and ```id``` of **"dialogue7"**. You don't have to put anything in there yet.
 
-* ```p``` with ```class``` of "speech" and ```id``` of **"dialogue8"**. You don't have to put anything in there yet. 
+* ```p``` with ```class``` of "speech" and ```id``` of **"dialogue8"**. You don't have to put anything in there yet.
+
+---
+
+Great job!
+
+### Part III CSS
+
+To complete Part II, fulfill the following requirements:
