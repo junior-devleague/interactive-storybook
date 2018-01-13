@@ -29,7 +29,7 @@ CSS | Description
 ----|------------
 CSS | **C** ascading **S** tyle **S** heets that describes how HTML elements are displayed.
 flexbox | A layout mode to improve how items are aligned or ordered on a page even within items of unknown size.
-position | A property that specifies the type of positioning method used (static, relative, absolute, or fixed). Play around with the different types here: https://www.w3schools.com/cssref/playit.asp?filename=playcss_position&preval=absolute. 
+position | A property that specifies the type of positioning method used (static, relative, absolute, or fixed). Play around with the different types here: https://www.w3schools.com/cssref/playit.asp?filename=playcss_position&preval=absolute.
 
 Note: Flexbox comes in very handy! It is helpful to remember the following common CSS Flexbox properties.
 * ```display: flex;``` Use this to activate Flexbox! If you do not have this property, other flexbox properties will not work.
@@ -94,7 +94,7 @@ We will continue to create similar patterns.
 ---
 
 * ```div``` with a ```class``` of "area"
-  * ```div``` with a ```class``` of "innerarea"
+  * ```div``` with ```id``` of "final" and a ```class``` of "innerarea"
     * ```img``` with the ```src``` to the "panel8.png" file.
 
 ---
@@ -122,3 +122,54 @@ Great job!
 ### Part III CSS
 
 To complete Part II, fulfill the following requirements:
+
+1. Target the ```body``` element.
+* Set the ```margin``` to 0px. This will get rid of any white spaces on the edges of the body.
+
+2. Target the ```id``` of "container".
+* Set the width to the **full** view width of the window.
+* Set the height to "auto", meaning it will take up whatever height to make sure it fully wraps around all of the elements inside of it.
+
+3. Target the ```class``` of "area".
+* Set the width to be **as wide as its parent element**.
+* Set the height to be 400px.
+* Give it a top margin of 10px. *What is the property that controls that?*
+* Activate flexbox!
+* Arrange the elements in a ROW using flexbox.
+* Give horizontal SPACE-AROUND the elements using flexbox.
+* CENTER the items vertically using flexbox.
+
+4. Target the ```class``` of "innerarea".
+* Set the height to 280px.
+* Set the width to 80% of its parent element.
+* Activate flexbox!
+* Arrange the elements in a ROW using flexbox.
+* Put horizontal SPACE-BETWEEN the elements using flexbox.
+
+5. Target the ```class``` of "panel".
+* Set the height to be **as tall as its parent element**.
+
+6. Target the ```id``` of "final".
+* Activate flexbox!
+* CENTER the items horizontally using flexbox.
+
+7. Target the ```class``` of "speech".
+* Set the background color to white.
+* Make the edges a little curvy using the ```border-radius``` property.
+* Set the position to absolute. This makes it so that we can adjust the location of the elements using pixels for left, top, bottom, and right properties. It will also always stay there.
+* Activate flexbox!
+* CENTER the items HORIZONTALLY AND VERTICALLY using flexbox.
+* Set the box-shadow to ```0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)```. This gives us a nice shadow for our dialogue bubbles.
+* Set the text-align property to "center" which will center our text.
+
+**For dialogue1 through dialogue 8, adjust the following:**
+* size
+* location on the page
+* text  
+
+Make a story out of the panels! Each image should have 1 dialogue bubble near or next to it like the example at the top of the page.
+
+8. Create a ```CSS Animation``` that adds a border to the dialogue bubbles when you HOVER on the dialogue bubbles. *Hint: Pseudoselectors: https://www.w3schools.com/cssref/sel_hover.asp, CSS Animation: https://www.w3schools.com/css/css3_animations.asp*
+
+## Stretch Goals
+1. Create an audio element of an animal sound in your HTML and an onclick attribute on the body element. Create a JavaScript file. Make it so that we the sound plays when we click anywhere on the webpage! 
