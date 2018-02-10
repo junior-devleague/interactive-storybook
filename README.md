@@ -172,4 +172,39 @@ Make a story out of the panels! Each image should have 1 dialogue bubble near or
 8. Create a ```CSS Animation``` that adds a border to the dialogue bubbles when you HOVER on the dialogue bubbles. *Hint: Pseudoselectors: https://www.w3schools.com/cssref/sel_hover.asp, CSS Animation: https://www.w3schools.com/css/css3_animations.asp*
 
 ## Stretch Goals
-1. Create an audio element of an animal sound in your HTML and an onclick attribute on the body element. Create a JavaScript file. Make it so that we the sound plays when we click anywhere on the webpage! 
+1. Create an audio element of an animal sound in your HTML and an onclick attribute on the body element. Create a JavaScript file. Make it so that we the sound plays when we click anywhere on the webpage!
+
+2. Create an even more interactive story by adding buttons to change the dialogue and image on click!
+* Create a javascript file.
+* Create 2 buttons in your HTML file.
+* In your JS file, create a variable to store each button by its ID.
+
+Example:
+``` JavaScript
+var button1 = document.getElementById('idforyourbutton!')
+
+```
+
+* Create a variable to store the dialogue container that you have by its ID. This will allow us to change it later when we click on a button.
+
+* Create a variable to store the image by its ID.
+
+* Create an onclick function! There are many ways to handle clicks. In this case, we will use the onclick function as follows:
+
+``` javascript
+button1.onclick = function() {
+  // Change the innerHTML of your dialogue!
+  // Change the source of your image!
+}
+```
+* When you click on the button, the code inside of your onclick function will run. When we click on the button, we want to 1). Change the dialogue, and 2). Change the image!
+  * 1). Change the dialogue.
+    * Set the inner HTML of the dialogue container to the new dialogue like in this example.
+    ``` javascript
+    dialogue.innerHTML = "New dialogue!"
+    ```
+  * 2). Change the image.
+    * Set the src property of the image to the new image source like in this example.
+    ``` JavaScript
+    image.src = "assets/newimage.png";
+    ```
